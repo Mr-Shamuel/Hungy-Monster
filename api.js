@@ -39,13 +39,13 @@ const displayMeal = food => {
             <h3 >${food.meals[i].strMeal}</h3>
             <div class="hide" id="${food.meals[i].strMeal}">
             <h4>Ingredients</h4>
-            <p>1. ${food.meals[i].strIngredient1}</p>
-            <p>2. ${food.meals[i].strIngredient2}</p>
-            <p>3. ${food.meals[i].strIngredient3}</p>
-            <p>4. ${food.meals[i].strIngredient4}</p>
-            <p>5. ${food.meals[i].strIngredient5}</p>
-            <p>6. ${food.meals[i].strIngredient6}</p>
-            <p>7. ${food.meals[i].strIngredient7}</p>
+            <p>* ${food.meals[i].strIngredient1}</p>
+            <p>* ${food.meals[i].strIngredient2}</p>
+            <p>* ${food.meals[i].strIngredient3}</p>
+            <p>* ${food.meals[i].strIngredient4}</p>
+            <p>* ${food.meals[i].strIngredient5}</p>
+            <p>* ${food.meals[i].strIngredient6}</p>
+            <p>* ${food.meals[i].strIngredient7}</p>
             </div>
      `
             displayMealDiv.appendChild(mealDiv);

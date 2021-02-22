@@ -1,0 +1,32 @@
+
+body{
+    background: orange;
+}
+#display img{
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.container{
+    text-align: center;
+    padding-top: 20%;
+}
+#input-meal{
+    border: 0;
+    border-radius: 5px;
+    height: 25px;
+    width: 200px;
+    background-color: lightcyan;
+}
+.button{
+    background:navy;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    height: 25px;
+    width:80px ;
+}
+
+.hide{
+    display: none;
+}
